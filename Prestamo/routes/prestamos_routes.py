@@ -48,7 +48,7 @@ def devolver(uuid):
             if(len(prestamista._libros) != 0):
                 time = datetime.datetime.now()
                 prestamo = DB.buscarPrestamo(uuid)
-                prestamo.setHoraDevolucion(time)
+                prestamo._return_date = datetime.datetime.now()
                 prestamista._libros = []
                 libro = DB.buscarLibro(uuid)
                 libro.sumarCopias()
