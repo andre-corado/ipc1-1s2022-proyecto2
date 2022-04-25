@@ -7,7 +7,7 @@
 
 ### 202100154 - Sergio André Lima Corado
 
-- [Documentación POSTMAN](https:)
+- [Documentación POSTMAN](https://documenter.getpostman.com/view/20178644/UyrBivaW)
 - [Enlace HEROKU](https://git.heroku.com/ipc1-proyecto2-202100154.git)
 
 <hr>
